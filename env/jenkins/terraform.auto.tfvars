@@ -66,8 +66,8 @@ route_table_associations = [
 nacls = [
 # NACLs for public subnets
 {
-	nacl_name = "cw-sb-nacl-pub-01"                                             # Required (Tag name for NACL)
-	subnet_names = ["cw-sb-sub-a-pub-01","cw-sb-sub-b-pub-01"]                  # Required (Subnet tag name that needs to be applied with NACL rule)
+	nacl_name = "cw-sb-nacl-pub-01" 
+	subnet_names = ["cw-sb-sub-a-pub-01","cw-sb-sub-b-pub-01"]                  # Subnets that needs to be applied with NACL rule
     ingress = [
             {
                 protocol   = "-1"
