@@ -1,0 +1,21 @@
+VPC CIDR: 192.168.1.0/24	(cw-sb-vpc)
+
+Subnet (Public): 
+192.168.1.0/28			(cw-sb-sub-a-pub-01)
+192.168.1.16/28			(cw-sb-sub-b-pub-01)
+
+Route Tables:
+cw-sb-rt-pub-01
+
+NACLs:
+cw-sb-nacl-pub-01
+
+Security Groups:
+cw-sb-sg-bastion-001
+cw-sb-sg-web-001
+
+EC2 instances:
+cw-sb-vm-a-r7-js-01
+
+EBS volume name:
+cw-sb-ebs-a-js01-os
