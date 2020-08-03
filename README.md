@@ -18,5 +18,5 @@ Tested using Terraform version v0.12.24
 1. Add AWS access/secret keys in AWS CLI on your machine
 2. Change directory to env/jenkins
 3. Run "terraform init" to download all required aws plugins and initialize modules
-4. Run "terraform plan" to show a plan of AWS resources to be created 
+4. Run "terraform plan" to show a plan of AWS resources to be created and verify the output
 5. Run "terraform apply" to create the AWS resources 
